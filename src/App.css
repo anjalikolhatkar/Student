@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+*{
+    font-family: 'Sora', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(
+        90deg,
+        rgb(59, 182, 244) 0%,
+        rgb(84, 73, 234) 100%
+    );
+}
+
+.contain h1{
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+.contain .main{
+    display: flex;
+    align-items: center;
+    
+}
+
+.contain .form-container{
+    width: 500px;
+    height: 540px;
+    margin: 10px auto ;
+    padding:10px;
+    background: #f7f8ff;
+   
+    border-radius: 5px;
+    border: 2.5px solid rgb(2, 0, 6);
+}
+
+.contain .form-container {
+    width: 40%;   
+    font-size: large;
+    font-weight: bold;
+}
+
+.contain .view-container{
+    width: 600px;    
+    margin: 10px auto;
+    background: #f7f8ff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 2.5px solid rgb(2, 0, 6);
+}
+
+.form-control, .btn, .form-check-input{
+    /* box-shadow: none !important; */
+    /* outline: none !important; */
+    /* outline-style: solid; */
+    border: 1.5px solid rgb(2, 0, 6);
+
+    
+}
+
+.delete{
+    color: rgb(98, 0, 255);
+}
+
+tbody{
+    margin-top: 30px;
+}
